@@ -1,0 +1,11 @@
+<h1>All Resume Examples</h1>
+
+<ul>
+  {% for role in roles %}
+    <li>
+      <a href="/resume-for-{{ role }}">
+        {{ role.replace("-", " ").title() }} Resume
+      </a>
+    </li>
+  {% endfor %}
+</ul>

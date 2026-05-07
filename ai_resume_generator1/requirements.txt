@@ -1,0 +1,6 @@
+flask
+openai
+stripe
+weasyprint
+python-dotenv
+gunicorn

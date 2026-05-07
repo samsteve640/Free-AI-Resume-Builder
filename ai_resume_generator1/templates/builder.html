@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="max-w-2xl mx-auto bg-white p-10 rounded-3xl shadow-sm">
+
+<h1 class="text-4xl font-bold mb-8">Build Your Resume</h1>
+
+<form method="post" class="space-y-5">
+
+<input name="name" placeholder="Full Name"
+class="w-full border rounded-xl px-4 py-3">
+
+<input name="title" placeholder="Target Job Title"
+class="w-full border rounded-xl px-4 py-3">
+
+<textarea name="skills" placeholder="Skills"
+class="w-full border rounded-xl px-4 py-3 h-28"></textarea>
+
+<textarea name="experience" placeholder="Work Experience"
+class="w-full border rounded-xl px-4 py-3 h-40"></textarea>
+
+<button class="w-full bg-black text-white py-4 rounded-xl font-semibold text-lg">
+Generate Resume
+</button>
+
+</form>
+
+</div>
+
+{% endblock %}

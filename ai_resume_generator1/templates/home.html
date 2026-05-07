@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section class="text-center py-20">
+
+<p class="text-blue-600 font-semibold mb-4">
+#1 AI Resume Builder
+</p>
+
+<h1 class="text-5xl font-extrabold leading-tight mb-6">
+Create a Professional Resume <br>
+in 60 Seconds
+</h1>
+
+<p class="text-xl text-slate-600 max-w-2xl mx-auto mb-10">
+Generate ATS-friendly resumes instantly with AI.  
+Download polished PDF resumes for just £5.
+</p>
+
+<div class="flex justify-center gap-4">
+<a href="/resume">Browse Resume Examples</a>
+<a href="/builder"
+class="bg-black text-white px-8 py-4 rounded-2xl text-lg font-semibold">
+Build Free Resume
+</a>
+
+<a href="#features"
+class="border px-8 py-4 rounded-2xl text-lg font-semibold">
+See Features
+</a>
+</div>
+
+</section>
+
+<section id="features" class="grid md:grid-cols-3 gap-6 mt-20">
+
+<div class="bg-white p-8 rounded-3xl shadow-sm">
+<h3 class="font-bold text-xl mb-3">AI Writing</h3>
+<p class="text-slate-600">Turns your experience into professional language instantly.</p>
+</div>
+
+<div class="bg-white p-8 rounded-3xl shadow-sm">
+<h3 class="font-bold text-xl mb-3">ATS Friendly</h3>
+<p class="text-slate-600">Designed to pass modern hiring systems.</p>
+</div>
+
+<div class="bg-white p-8 rounded-3xl shadow-sm">
+<h3 class="font-bold text-xl mb-3">PDF Download</h3>
+<p class="text-slate-600">Premium polished resume download for £5.</p>
+</div>
+
+</section>
+
+{% endblock %}
